@@ -9,6 +9,7 @@ const files = readdirSync(providersPath, "utf8")
 const emailProvidersFile = [
   "email",
   "forwardemail",
+  "mailchannels",
   "mailgun",
   "nodemailer",
   "passkey",
