@@ -1,0 +1,15 @@
+{
+  "name": "mailchannels-e2e-better-auth",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start -p 3002"
+  },
+  "dependencies": {
+    "better-auth": "1.7.14",
+    "mailchannels-sdk": "1.8.0",
+    "next": "16.4.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  }
+}
