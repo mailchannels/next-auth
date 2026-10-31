@@ -150,7 +150,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
 
 As an example, the following shows the source for our built-in `sendVerificationRequest()` method. Notice that we're rendering the HTML (`html()`) and making the network call (`fetch()`) to the MailChannels Email API to actually do the sending here in this method.
 
-```ts filename="./lib/authSendRequest.ts" {4, 20}
+```ts filename="./lib/authSendRequest.ts" {4, 16}
 export async function sendVerificationRequest(params) {
   const { identifier: to, provider, url, theme } = params
   const { host } = new URL(url)
