@@ -126,6 +126,7 @@
   },
   "providersEmail": {
     "forwardemail": "Forward Email",
+    "mailchannels": "MailChannels",
     "resend": "Resend",
     "sendgrid": "Sendgrid",
     "nodemailer": "Nodemailer"
